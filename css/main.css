@@ -22,3 +22,31 @@ header {
     text-align: center;
     margin-bottom: 220px;
 }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-button {
+    position: relative;
+    display: flex;
+    
+}
