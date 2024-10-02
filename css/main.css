@@ -48,5 +48,7 @@ nav {
 #menu-button {
     position: relative;
     display: flex;
-    
+    flex-direction: column;
+    background: none;
+    align-self: flex-end;
 }
