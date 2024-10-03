@@ -6,22 +6,28 @@ body {
 
 nav {
     display: flex;
-    position: relative;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-    padding: 10px;
-    align-items: center;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
 }
-.nav-list{
+
+ul {
     list-style: none;
 }
 
+.nav-list {
+display: flex;
+align-items: center;
+}
+
 .nav-list li {
-    display: inline-block;
-    padding: 0px 20px;
+    margin: 0 30px;
 
 }
+
 a {
     color: whitesmoke;
     text-decoration: none;
@@ -38,10 +44,6 @@ a {
     background-position: center;
     background-size: cover;
     height: 100vh;
-}
-
-#menu-toggle {
-    display: none;
 }
 
 .header-content {
@@ -62,11 +64,16 @@ a {
     }
 }
 
+h1 {
+    font-size: 2rem;
+}
 .arrow-down a {
     color: whitesmoke;
     font-size: 1.5rem;
 }
 
-
-
-
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
