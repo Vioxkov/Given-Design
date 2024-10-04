@@ -115,10 +115,10 @@ img {
 
 .team-profile p {
 
-    width: 80%;
+    width: 85%;
     padding: 25px;
     text-align: left;
-    align-items: center;
+    align-items:center;
     border-radius: 3px;
     background-color: rgb(212, 210, 212);
 
@@ -224,7 +224,7 @@ img {
         flex-direction: column;
         position: absolute;
         margin-top: 30px;
-        background-color: rgba(128, 128, 128, 0.653);
+        background-color: rgba(152, 151, 151, 0.253);
         width: 100%;
     }
 
