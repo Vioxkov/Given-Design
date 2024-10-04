@@ -11,6 +11,8 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* Header section*/ 
+
 nav {
     display: flex;
     position: absolute;
@@ -75,6 +77,7 @@ a {
     font-size: 1.5rem;
 }
 
+/*Team section*/ 
 
 #team {
     min-height: 100vh;
@@ -166,6 +169,10 @@ img {
     min-width: 200px;
     max-width: 33%;
 }
+
+
+/* Mobile*/ 
+
 
 @media (max-width: 768px) {
     .kontakt-con {
