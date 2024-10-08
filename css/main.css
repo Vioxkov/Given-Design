@@ -15,16 +15,19 @@ body {
 
 nav {
     display: flex;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     justify-content: flex-end;
-    padding: 20px;
+    /* padding: 20px; */
+    background-color: rgba(152, 151, 151, 0.253);
+    
 }
 
 ul {
     list-style: none;
+    margin: 40px;
 }
 
 .nav-list {
@@ -226,18 +229,20 @@ img {
     }
 
     ul.nav-list {
-        display: none;
+        display: flex;
         list-style: none;
         flex-direction: column;
         position: absolute;
+        margin: 0;
         margin-top: 30px;
-        background-color: rgba(152, 151, 151, 0.253);
         width: 100%;
+
     }
 
     ul.nav-list li {
         width: 100%;
         text-align: center;
+        
     }
 
     ul.nav-list li> a {
